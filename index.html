@@ -44,49 +44,103 @@
   </section>
   <section class="popular">
     <h2>Популярные модели</h2>
-    <a>Смотреть все</a>
+    <a class="popular__view-all">Смотреть все</a>
     <div class="popular__items">
       <div class="popular__item-card">
         <span class="popular__item-card__title">RADO</span>
         <span class="popular__item-card__price">65 300 ₽</span>
-        <img src="./src/assets/images/watch_1.png" alt="watch">
-        <a>Подробнее</a>
+        <img class="popular__item-card__image" src="./src/assets/images/watch_1.png" alt="watch">
+        <a class="popular__item-card__link">Подробнее</a>
+      </div>
+      <div class="popular__item-card">
+        <span class="popular__item-card__title">BVLGARI</span>
+        <span class="popular__item-card__price">81 700 ₽</span>
+        <img class="popular__item-card__image" src="./src/assets/images/watch_3.png" alt="watch">
+        <a class="popular__item-card__link">Подробнее</a>
+      </div>
+      <div class="popular__item-card">
+        <span class="popular__item-card__title">BVLGARI</span>
+        <span class="popular__item-card__price">72 700 ₽</span>
+        <img class="popular__item-card__image" src="./src/assets/images/watch_4.png" alt="watch">
+        <a class="popular__item-card__link">Подробнее</a>
       </div>
     </div>
   </section>
   <section class="slider">
-    <img src="./src/assets/images/photo_banner.jpg" alt="watch">
-    <h2>Подлинное качество</h2>
-    <p>Все часы производятся в Швейцарии и имеют сертификаты качества. Настоящие швейцарские часы — это предмет гордости
-      и
-      престижа.</p>
-    <button>Смотреть каталог</button>
+    <div class="slider__image">
+      <img src="./src/assets/images/photo_banner.jpg" alt="watch">
+      <div class="slider__image__controls">
+        <img src="./src/assets/icons/arrow_left.svg" alt="arrow left">
+        <span>01</span>
+        <img src="./src/assets/icons/arrow_right.svg" alt="arrow right">
+      </div>
+    </div>
+    <div class="slider__info">
+      <h2>Подлинное качество</h2>
+      <p>Все часы производятся в Швейцарии и имеют сертификаты качества. Настоящие швейцарские часы — это предмет
+        гордости
+        и
+        престижа.</p>
+      <button>Смотреть каталог</button>
+    </div>
   </section>
   <section class="advertisement">
-    <div>
+    <div class="advertisement__info">
       <h2>Следите за нашими новостями</h2>
-      <p>Подписывайтесь на @conquest_watch в соцсетях и узнавайте о новинках и акциях первыми.</p>
-      <div class="advertisement__links">
+      <p class="advertisement__info__text">Подписывайтесь на <b>@conquest_watch</b> в соцсетях и узнавайте о новинках и
+        акциях
+        первыми.</p>
+      <div class="advertisement__info__links">
         <img src="./src/assets/icons/instagram_icon.svg" alt="instagram">
         <img src="./src/assets/icons/facebook_icon.svg" alt="facebook">
         <img src="./src/assets/icons/twitter_icon.svg" alt="twitter">
       </div>
     </div>
-    <div>
-      <div>
+    <div class="advertisement__photos">
+      <div class="advertisement__photos__column-1">
         <img src="./src/assets/images/photo_1.jpg" alt="photo">
         <img src="./src/assets/images/photo_2.jpg" alt="photo">
       </div>
-      <img src="./src/assets/images/photo_3.jpg" alt="photo">
+      <div class="advertisement__photos__column-2">
+        <img src="./src/assets/images/photo_3.jpg" alt="photo">
+      </div>
     </div>
   </section>
   <footer>
-    <div>
+    <div class="footer-column">
       <img src="./src/assets/icons/logo2.svg" alt="logo">
+      <div class="footer-column__links">
+        <a href="tel:84994504797">8 (499) 450-47-97</a>
+        <a href="mailto:info@conquest.watch.ru">info@conquest.watch.ru</a>
+      </div>
     </div>
-    <div></div>
-    <div></div>
-    <div></div>
+    <div class="footer-column">
+      <span class="footer-column__title">о компании</span>
+      <div class="footer-column__links">
+        <a href="">Наши магазины</a>
+        <a href="">Вакансии</a>
+        <a href="">Сертификаты</a>
+        <a href="">Отзывы</a>
+      </div>
+    </div>
+    <div class="footer-column">
+      <span class="footer-column__title">покупателям</span>
+      <div class="footer-column__links">
+        <a href="">Каталог товаров</a>
+        <a href="">Как заказать?</a>
+        <a href="">FAQ</a>
+        <a href="">Корпоративным клиентам</a>
+      </div>
+    </div>
+    <div class="footer-column">
+      <span class="footer-column__title">оплата и доставка</span>
+      <div class="footer-column__links">
+        <a href="">Способы оплаты</a>
+        <a href="">Время доставки</a>
+        <a href="">Гарантии и ремонт</a>
+        <a href="">Возврат и компенсация</a>
+      </div>
+    </div>
   </footer>
 </body>
 
