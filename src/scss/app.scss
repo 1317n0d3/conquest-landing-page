@@ -43,9 +43,34 @@ header {
   }
 
   .icons {
-    img {
+    display: flex;
+
+    .icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       cursor: pointer;
       margin: 0 12px;
+    }
+
+    &__favorite {
+      position: relative;
+
+      &::after {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 8px;
+        color: #1B1A17;
+        width: 13px;
+        height: 13px;
+        content: "1";
+        position: absolute;
+        top: -2px;
+        right: -6px;
+        background-color: #E6C8B4;
+      }
     }
   }
 }

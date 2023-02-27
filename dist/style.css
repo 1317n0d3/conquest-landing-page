@@ -35,9 +35,30 @@ header {
   padding: 35px calc(50vw - 585px); }
   header .menu a {
     margin: 0 32px; }
-  header .icons img {
-    cursor: pointer;
-    margin: 0 12px; }
+  header .icons {
+    display: flex; }
+    header .icons .icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      margin: 0 12px; }
+    header .icons__favorite {
+      position: relative; }
+      header .icons__favorite::after {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 8px;
+        color: #1B1A17;
+        width: 13px;
+        height: 13px;
+        content: "1";
+        position: absolute;
+        top: -2px;
+        right: -6px;
+        background-color: #E6C8B4; }
 
 h1 {
   font-size: 45px;
