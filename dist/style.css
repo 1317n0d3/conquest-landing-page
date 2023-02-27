@@ -1,0 +1,107 @@
+/*!************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/app.scss ***!
+  \************************************************************************************************************/
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #FFFFFF;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+button,
+a {
+  cursor: pointer; }
+
+button {
+  color: #FFFFFF;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 26px 38px;
+  border: none;
+  background-color: #444240; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px calc(50% - 585px); }
+  header .menu a {
+    margin: 0 32px; }
+  header .icons img {
+    cursor: pointer;
+    margin: 0 12px; }
+
+h1 {
+  font-size: 45px;
+  color: #1B1A17;
+  font-weight: 400; }
+
+h2 {
+  font-size: 30px;
+  color: #1B1A17;
+  font-weight: 400; }
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 calc(50% - 580px);
+  background-image: url(c7e897463c4ce263c053.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+  .main h1 {
+    margin: 0;
+    position: relative; }
+    .main h1::before {
+      content: "";
+      display: block;
+      width: 50px;
+      height: 2px;
+      background: #8B8371;
+      left: -75px;
+      top: 50%;
+      position: absolute; }
+  .main h2 {
+    margin: 0;
+    margin-top: 16px; }
+  .main p {
+    margin: 39px 0;
+    font-weight: 300;
+    color: rgba(27, 26, 23, 0.82); }
+  .main__column-1 {
+    width: 30%;
+    margin-right: 100px; }
+  .main__column-2 {
+    align-self: flex-start;
+    margin-top: 138px; }
+    .main__column-2 span {
+      font-size: 16px;
+      color: #1B1A17;
+      position: relative; }
+      .main__column-2 span::after {
+        content: "";
+        display: block;
+        width: 50px;
+        height: 2px;
+        background: #8B8371;
+        right: -75px;
+        top: 50%;
+        position: absolute; }
+  .main__column-4 {
+    align-self: flex-end;
+    margin-bottom: 138px; }
+    .main__column-4 span {
+      font-size: 16px;
+      color: #1B1A17;
+      position: relative; }
+      .main__column-4 span::after {
+        content: "";
+        display: block;
+        width: 50px;
+        height: 2px;
+        background: #8B8371;
+        left: -75px;
+        top: 50%;
+        position: absolute; }
+
